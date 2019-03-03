@@ -11,7 +11,7 @@ from dash.dependencies import Input, Output
 app = dash.Dash()
 
 app.layout = html.Div(children=[
-    html.Div(children="Symbol to graph: "),
+    html.Div(children="Please enter the symbol to graph: "),
     dcc.Input(id='input',value="",type="text"),
     html.Div(id="output-graph"),
 ])
